@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Sort Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="mouseFollower"></div> -->
+    <div class="main">
+        <div class="topContainer">
+            <button id="btnReset">Reset Graph</button>
+            <div>
+                <h5>Select Speed</h5>
+                <div class="speedContainer">
+                    <select name="speed" id="selectSpeed">
+                        <option value="500">Slow</option>
+                        <option value="250">Medium</option>
+                        <option value="50">Fast</option>
+                    </select>
+                </div>
+            </div>
+            <div class="arraySeletion">
+                <label for="arrayDefault"><input type="radio" class="radioButtons" name="array" id="arrayDefault" checked>Default</label>
+                <label for="array20"><input type="radio" class="radioButtons" name="array" id="array20">Array of 20 elements</label>
+                <label for="array50"><input type="radio" class="radioButtons" name="array" id="array50">Array of 50 elements</label>
+                <label for="array100"><input type="radio" class="radioButtons" name="array" id="array100">Array of 100 elements</label>
+            </div>
+        </div>
+    
+        <div class="graphContainer">
+    
+        </div>
+    
+        <div class="btns">
+            <button class="btn" id="bubbleSort">Bubble Sort</button>
+            <button class="btn" id="selectionSort">Selection Sort</button>
+        <button class="btn" id="btnInsertionSort">Insertion Sort</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
